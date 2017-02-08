@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:app="http://schemas.android.com/apk/res-auto"
+			  android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<Button
+		android:text="Capture"
+		android:layout_width="203dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnCapture"
+		android:layout_weight="0.03"/>
+
+	<com.camera.simplewebcam2.CameraPreview
+		android:id="@+id/cp"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+		android:layout_weight="1"
+        />
+
+</LinearLayout>
